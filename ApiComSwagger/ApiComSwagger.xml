@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiComSwagger</name>
+    </assembly>
+    <members>
+        <member name="T:ApiComSwagger.Business.Entities.Usuario">
+            <summary>
+            Entidade Usuário
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Business.Entities.Usuario.Codigo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Business.Entities.Usuario.Login">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Business.Entities.Usuario.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Business.Entities.Usuario.Senha">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ApiComSwagger.Controllers.UsuarioController.Logar(ApiComSwagger.Models.Usuarios.LoginViewModelInput)">
+            <summary>
+            Serviço de logar
+            </summary>
+            <param name="loginViewModelInput"></param>
+            <returns>Retorna status ok, dados do usuario e token de acesso</returns>
+        </member>
+        <member name="M:ApiComSwagger.Controllers.UsuarioController.Registrar(ApiComSwagger.Models.Usuarios.RegistroViewModeLinput)">
+            <summary>
+            Registrar usuário
+            </summary>
+            <param name="registroViewModeLinput"></param>
+            <returns>Retorna status Created</returns>
+        </member>
+        <member name="T:ApiComSwagger.Filters.ValidacaoModelStateCustomizado">
+            <summary>
+            Filtro de validação dos model states
+            </summary>
+        </member>
+        <member name="T:ApiComSwagger.Infrastructure.Data.CursoDbContext">
+            <summary>
+            Configuração do EF para Curso
+            </summary>
+        </member>
+        <member name="T:ApiComSwagger.Models.Cursos.CursoViewModelOutput">
+            <summary>
+            ViewModel de output de curso
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Models.Cursos.CursoViewModelOutput.Nome">
+            <summary>
+            Nome do curso
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Models.Cursos.CursoViewModelOutput.Descricao">
+            <summary>
+            Descrição do curso
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Models.Cursos.CursoViewModelOutput.Login">
+            <summary>
+            Login do curso
+            </summary>
+        </member>
+        <member name="T:ApiComSwagger.Models.ErrorGenericoViewModel">
+            <summary>
+            Erro genérico ViewModel
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Models.ErrorGenericoViewModel.Mensagem">
+            <summary>
+            Mensagem de erro
+            </summary>
+        </member>
+        <member name="T:ApiComSwagger.Models.Usuarios.LoginViewModelInput">
+            <summary>
+            ModelView do Login
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Models.Usuarios.LoginViewModelInput.Login">
+            <summary>
+            Parâmetro login
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Models.Usuarios.LoginViewModelInput.Senha">
+            <summary>
+            Parametro de senha
+            </summary>
+        </member>
+        <member name="T:ApiComSwagger.Models.Usuarios.RegistroViewModeLinput">
+            <summary>
+            ModelView do Registro
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Models.Usuarios.RegistroViewModeLinput.Login">
+            <summary>
+            Login do usuário
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Models.Usuarios.RegistroViewModeLinput.Email">
+            <summary>
+            Email do usuário
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Models.Usuarios.RegistroViewModeLinput.Senha">
+            <summary>
+            Senha do Usuário
+            </summary>
+        </member>
+        <member name="T:ApiComSwagger.Models.ValidaCampoViewModelOutput">
+            <summary>
+            ViewModel do validador de campo
+            </summary>
+        </member>
+        <member name="P:ApiComSwagger.Models.ValidaCampoViewModelOutput.Erros">
+            <summary>
+            Lista de erros
+            </summary>
+        </member>
+        <member name="M:ApiComSwagger.Models.ValidaCampoViewModelOutput.#ctor(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Ctor
+            </summary>
+            <param name="erros"></param>
+        </member>
+    </members>
+</doc>
